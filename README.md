@@ -1,2 +1,2 @@
 # FaceFilters
-![output image](output/Output.jpg)
+![output image](Output/Output.jpg)
