@@ -17,4 +17,5 @@ Face is detected using dlib and filters are put on images(real time / input imag
 
 ### Reference 
 https://www.youtube.com/watch?v=IJpTe-1cimE
+This video is for pig's nose filter. I used similar steps to create other filters.
 
