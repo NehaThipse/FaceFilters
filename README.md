@@ -1,8 +1,9 @@
 # FaceFilters using Facial Landmarks
 
 This project in python can put various snapchat like filters such as nose , glasses ,mustache , tongue (on opening mouth) on detected face. 
-Face is detected using dlib and filters are put on images(real time / input image) by identifying landmarks using 68 point landmark detector using opencv operations and masking.
-Steps -
+Face is detected using dlib and filters are put on images(real time / input image) by identifying landmarks using 68 point landmark detector using opencv operations and masking.<br>
+
+#### Steps -
 1. Detect faces real time using dlib library.
 2. For each face get 68 landmark points using 68 point landmark detector.
 3. Get required co-ordinates (Ex: for nose co-ordinates associated with nose area)
