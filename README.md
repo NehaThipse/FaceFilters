@@ -5,7 +5,7 @@ Face is detected using dlib and filters are put on images(real time / input imag
 
 ### Steps -
 1. Detect faces real time using dlib library.
-2. For each face get 68 landmark points using 68 point landmark detector.
+2. For each face get 68 landmark points using 68 point landmark detector.The file is available at http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 3. Get required co-ordinates (Ex: for nose co-ordinates associated with nose area)
 4. Calculate width and height ratio from co-ordinates in order to resize filter image to be put on face.(If we come closer to camera , size of nose filter image should increase in proportion wih the real nose)
 5. Apply masking to extract only nose/filter part from image and not the background.
